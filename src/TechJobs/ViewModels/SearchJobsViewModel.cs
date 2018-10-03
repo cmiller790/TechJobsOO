@@ -20,7 +20,7 @@ namespace TechJobs.ViewModels
         [Display(Name = "Keyword:")]
         public string Value { get; set; } = "";
 
-        // All columns, for display
+        /* // All columns, for display
         public List<JobFieldType> Columns { get; set; }
 
         // View title
@@ -38,6 +38,6 @@ namespace TechJobs.ViewModels
             }
 
 
-        }
+        } */
     }
 }

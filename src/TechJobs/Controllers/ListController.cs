@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TechJobs.Models;
-using TechJobs.Data;
-using TechJobs.ViewModels;
 using System.Linq;
 using System.Collections.Generic;
+using TechJobs.Data;
+using TechJobs.ViewModels;
+using TechJobs.Models;
 
-namespace TechJobs.Controllers
+namespace TechJobsOO.Controllers
 {
     public class ListController : Controller
     {
